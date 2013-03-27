@@ -14,11 +14,6 @@ GITHUBTARBALL
     gcc (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-git
-  specs:
-    git (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.1.2)
@@ -62,6 +57,11 @@ GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
+
+GITHUBTARBALL
+  remote: rhoml/puppet-arch-git
+  specs:
+    git (1.0.0)
 
 DEPENDENCIES
   boxen (= 1.2.0)
